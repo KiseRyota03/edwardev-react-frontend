@@ -1,0 +1,45 @@
+.popover-carts {
+    .pop-cart-body {
+        .pop-cart-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .book {
+                display: flex;
+                gap: 5px;
+            }
+
+            .book-price {
+                color: #ee4d2d;
+            }
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            
+            
+        }
+
+        .pop-cart-footer {
+            button {
+                overflow: visible;
+                outline: 0;
+                background: #ff57221a;
+                color: #ee4d2d;
+                border: 1px solid #ee4d2d;
+                box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .03);
+                cursor: pointer;
+                border-radius: 3px;
+                margin-top: 10px;
+                font-size: 16px;
+                height: 24px;
+                padding: 0 10px;
+            }
+        }
+
+      
+    }
+   
+}
